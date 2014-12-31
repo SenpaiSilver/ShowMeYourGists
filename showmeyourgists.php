@@ -5,8 +5,8 @@
  */
 /*
 Plugin Name: Show Me Your Gists
-Plugin URI: http://senpaisilver.com/
-Description: How about embedding esealy Gists ?<br />To do so just paste the Gist link on a single line.
+Plugin URI: https://github.com/SenpaiSilver/ShowMeYourGists
+Description: How about embedding esealy Gists ? To do so just paste the Gist link on a single line.
 Author: SenpaiSilver
 Version: 0.5
 Author URI: http://senpaisilver.com/
