@@ -16,7 +16,7 @@ function embedGistsInPosts($post) {
 	$pat = '/<p>(https?:)\/\/gist.github.com\/(.*)\/(.*)<\/p>/mi';
 	$sub = '<script src="$1//gist.github.com/$2/$3.js"></script>';
 	$post = preg_replace($pat, $sub, $post);
-	echo($post);
+	return ($post);
 }
 
 add_action('the_content', 'embedGistsInPosts');
